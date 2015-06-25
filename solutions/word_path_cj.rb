@@ -1,5 +1,7 @@
 def shortest_path(words, word1, word2)
   words = words.split
+  # strip off punctuation here
+  # create hash with each word as key and arrays of indexes as values
   min_distance = Float::INFINITY;
   word1_index = nil
   word2_index = nil
